@@ -186,6 +186,18 @@
     font-weight: 400;
     color: #534C64;
     margin: 20px 0 30px 0;
+    line-height: 30px;
+}
+#main .headline2 .headline2-purpose{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #534C64;
+}
+#main .headline2 .headline2-purpose span{
+    font-size: 26px;
+    font-weight: 700;
+    color: #534C64;
 }
 
 #main .headline2 .headline2-images img{
@@ -214,10 +226,30 @@
         margin-top: 70px;
         flex-direction: column-reverse;
         gap: 50px;
+        padding: 0 20px;
     }
     #main .headline .headline-images{
         width: 85%;
     }
+    /* main headline2 styles */
+    #main .headline2{
+        margin-top: 70px;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 20px;
+    }
+    #main .headline2 .headline2-contents{
+        text-align: center;
+    }
+    #main .headline2 .headline2-desc{
+        margin: 20px 5px 12px 5px;
+    }
+    #main .headline2 .headline2-images img{
+        max-width: 400px;
+    }
+
+
+    
 }
 
 /* For tablets */
@@ -232,5 +264,18 @@
     #header .nav .menu{
         flex-direction: column;
         gap: 25px;
+    }
+
+    #main .headline{
+        margin-top: 60px;
+    }
+    #main .headline, .headline2{
+        padding: 0 20px;
+    }
+    #main .headline2 .headline2-contents{
+        text-align: left;
+    }
+    #main .headline2 .headline2-images img{
+        max-width: 400px;
     }
 }
