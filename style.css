@@ -324,6 +324,51 @@ p {
   background-blend-mode: overlay, lighten;
 }
 
+/* services and features section styles */
+#main .features .feature1-part{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#main .features .feature1-contents{
+    width: 40%;
+    text-align: right;
+}
+#main .features .feature1-contents h3{
+    font-size: 42px;
+    font-weight: 700;
+}
+#main .features .feature1-contents .features-tittleBold{
+    background: linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#main .features .feature1-contents .features-desc{
+    font-size: 18px;
+    color: #534C64;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+#main .feature1-part .feature1-img{
+    width: 50%;
+}
+#main .features .feature1-img .feature1-img1{
+    width: 100%;
+    margin-left: 80px;
+    margin-top: 120px;
+}
+#main .features .feature1-img .feature1-img2{
+    width: 50%;
+    position: relative;
+    bottom: 220px;
+}
+
+
+
+
+
+
 /* Media queries for mobile and tablet responsiveness */
 /* For large mobiles */
 @media screen and (min-width: 376px) and (max-width: 425px) {
@@ -367,6 +412,40 @@ p {
     max-width: 400px;
   }
 
+  /* online games funny videos styles */
+  #main .online-vids > p{
+    padding: 0 75px;
+  }
+  #main .funny-videos {
+    flex-direction: column;
+  }
+  #main .funny-videos .video:first-child{
+    margin-top: 0px;
+  }
+  #main .funny-videos .video {
+    margin-top: 100px;
+    width: 300px;
+  }
+  #main .video .img-container1 {
+    background-image: url(images/icons/play-button.png),
+      url(images/Rectangle\ 4.png);
+    background-size: 15%, cover;
+  }
+  #main .video .img-container2 {
+    background-image: url(images/icons/play-button.png),
+      url(images/Rectangle\ 5.png);
+    background-size: 15%, cover;
+  }
+  #main .video .img-container3 {
+    background-image: url(images/icons/play-button.png),
+      url(images/Rectangle\ 6.png);
+    background-size: 15%, cover;
+  }
+  #main .video .img-container4 {
+    background-image: url(images/icons/play-button.png),
+      url(images/Rectangle\ 7.png);
+    background-size: 15%, cover;
+  }
 }
 
 /* For tablets */
@@ -397,4 +476,34 @@ p {
     max-width: 400px;
   }
 
+  /* Online games funny videos */
+  #main .funny-videos {
+    flex-wrap: wrap;
+    gap: 0;
+    margin-bottom: 120px;
+  }
+  #main .funny-videos .video {
+    width: 320px;
+    margin-bottom: 120px;
+  }
+  #main .video .img-container1 {
+    background-image: url(images/icons/play-button.png),
+      url(images/Rectangle\ 4.png);
+    background-size: 15%, cover;
+  }
+  #main .video .img-container2 {
+    background-image: url(images/icons/play-button.png),
+      url(images/Rectangle\ 5.png);
+    background-size: 15%, cover;
+  }
+  #main .video .img-container3 {
+    background-image: url(images/icons/play-button.png),
+      url(images/Rectangle\ 6.png);
+    background-size: 15%, cover;
+  }
+  #main .video .img-container4 {
+    background-image: url(images/icons/play-button.png),
+      url(images/Rectangle\ 7.png);
+    background-size: 15%, cover;
+  }
 }
