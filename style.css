@@ -18,7 +18,6 @@
     align-items: center;
     justify-content: space-between;
 }
-
 /* Nav logo styles */
 /* Nav menu's*/
 #header .nav{
@@ -66,4 +65,36 @@
 }
 #header .nav .menu .social-nav img{
     width: 20px;
+}
+
+
+/* Media queries for mobile and tablet responsiveness */
+/* For large mobiles */
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    #header{
+        box-shadow: none;
+    }
+    #header .nav{
+        flex-direction: column;
+        gap: 40px;
+    }
+    #header .nav .menu{
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
+/* For tablets */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    #header{
+        box-shadow: none;
+    }
+    #header .nav{
+        flex-direction: column;
+        gap: 40px;
+    }
+    #header .nav .menu{
+        flex-direction: column;
+        gap: 25px;
+    }
 }
