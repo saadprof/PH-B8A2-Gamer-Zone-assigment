@@ -325,6 +325,7 @@ p {
 }
 
 /* services and features section styles */
+/* Feature1 part */
 #main .features .feature1-part{
     display: flex;
     align-items: center;
@@ -334,23 +335,22 @@ p {
     width: 40%;
     text-align: right;
 }
-#main .features .feature1-contents h3{
+#main .features h3{
     font-size: 42px;
     font-weight: 700;
 }
-#main .features .feature1-contents .features-tittleBold{
+#main .features .features-tittleBold{
     background: linear-gradient(#F948B2, #8758F1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#main .features .feature1-contents .features-desc{
+#main .features .features-desc{
     font-size: 18px;
     color: #534C64;
     margin-top: 15px;
     line-height: 30px;
 }
-
-#main .feature1-part .feature1-img{
+#main .feature1-part .feature1-img, .feature2-img{
     width: 50%;
 }
 #main .features .feature1-img .feature1-img1{
@@ -359,9 +359,34 @@ p {
     margin-top: 120px;
 }
 #main .features .feature1-img .feature1-img2{
-    width: 50%;
+    width: 40%;
     position: relative;
     bottom: 220px;
+}
+
+/* Feature2 part */
+#main .features .feature2-part{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+#main .features .feature2-contents{
+  width: 40%;
+  text-align: left;
+  margin-left: 80px;
+  margin-bottom: 120px;
+}#main .feature1-part .feature2-img{
+  width: 100%;
+}
+#main .features .feature2-img .feature2-img1{
+    width: 100%;
+    margin-right: 80px;
+}
+#main .features .feature2-img .feature2-img2{
+    width: 40%;
+    position: relative;
+    left: 350px;
+    bottom: 160px;
 }
 
 
@@ -446,6 +471,11 @@ p {
       url(images/Rectangle\ 7.png);
     background-size: 15%, cover;
   }
+
+
+
+
+
 }
 
 /* For tablets */
@@ -506,4 +536,6 @@ p {
       url(images/Rectangle\ 7.png);
     background-size: 15%, cover;
   }
+
+
 }
