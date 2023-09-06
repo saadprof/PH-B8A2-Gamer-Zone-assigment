@@ -625,6 +625,9 @@ p {
     font-weight: 600;
   }
 
+  #main .games .game img{
+    width: 2rem;
+  }
 
 }
 
