@@ -440,7 +440,6 @@ p {
   font-size: 1.25rem;
   font-weight: 500;
 }
-
 #main .careers img{
   width: 50%;
 }
@@ -573,7 +572,23 @@ p {
     font-size: 15px;
   }
 
-
+  /* Careers section styles */
+  #main .careers{
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  #main .careers .carrers-content{
+    margin-left: 0px;
+  }
+  #main .careers img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #main .careers .carrer-positions > p{
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
 
 
 }
@@ -679,4 +694,16 @@ p {
     font-size: 15px;
   }
 
+    /* Careers section styles */
+  #main .careers{
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  #main .careers .carrers-content{
+    margin-left: 0px;
+  }
+  #main .careers img{
+    width: 80%;
+    margin: 20px auto;
+  }
 }
