@@ -180,6 +180,7 @@ p {
 }
 #main .headline2 .headline2-contents {
   text-align: right;
+  width: 70%;
 }
 #main .headline2 .headline2-boldTittle {
   font-size: 38px;
@@ -444,7 +445,40 @@ p {
   width: 50%;
 }
 
+/* Game options styles */
+#main .games{
+  max-width: 1020px;
+  margin: 100px auto;
 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+#main .games .game{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+#main .game p{
+  color: #0B0223;
+  font-size: 1rem;
+}
+#main .games .game:hover p{
+  color: #f948b2;
+}
+#main .games .game:hover{
+  border: 2px solid #f948b2;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #f948b2;
+}
+#main .games .game img{
+  width: 3rem;
+}
 
 
 
@@ -484,6 +518,7 @@ p {
   }
   #main .headline2 .headline2-contents {
     text-align: center;
+    width: 90%;
   }
   #main .headline2 .headline2-desc {
     margin: 20px 5px 12px 5px;
