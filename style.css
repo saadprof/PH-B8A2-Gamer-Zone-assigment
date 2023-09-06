@@ -126,8 +126,6 @@ p {
 
 /* Main part styles */
 #main {
-  max-width: 1020px;
-  margin: 0 auto;
 }
 
 /* main headline styles */
@@ -140,6 +138,9 @@ p {
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 500px;
+
+  max-width: 1020px;
+  margin: 0 auto;
 }
 #main .headline .headline-tittle {
   font-size: 34px;
@@ -174,7 +175,8 @@ p {
   align-items: center;
   justify-content: space-between;
 
-  margin: 50px 0;
+  max-width: 1020px;
+  margin: 50px auto;
 }
 #main .headline2 .headline2-contents {
   text-align: right;
@@ -209,6 +211,10 @@ p {
 }
 
 /* online games funny videos section styles */
+#main .online-vids{
+  max-width: 1020px;
+  margin: 0 auto;
+}
 #main .online-vids > h3{
     margin-top: 120px;
     text-align: center;
@@ -332,6 +338,10 @@ p {
 
 /* services and features section styles */
 /* Feature1 part */
+#main .features{
+  max-width: 1020px;
+  margin: 0 auto;
+}
 #main .features .feature1-part{
     display: flex;
     align-items: center;
@@ -369,7 +379,6 @@ p {
     position: relative;
     bottom: 185px;
 }
-
 /* Feature2 part */
 #main .features .feature2-part{
   display: flex;
@@ -395,6 +404,46 @@ p {
     bottom: 160px;
 }
 
+
+/* Carrers section styles */
+#main .careers{
+  display: flex;
+  justify-content: space-around;
+  background-color: #FF42A5;
+  margin-bottom: 100px;
+}
+#main .careers .carrers-content{
+  margin-left: 10%;
+  margin-bottom: 50px;
+}
+#main .careers .carrers-tittle{
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-top: 10%;
+}
+#main .careers .careers-desc{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 30px;
+  margin: 15px 0 30px 0;
+}
+#main .careers .carrer-positions{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#main .careers .carrer-positions > p{
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+#main .careers img{
+  width: 50%;
+}
 
 
 
@@ -526,6 +575,7 @@ p {
 
 
 
+
 }
 
 /* For tablets */
@@ -628,4 +678,5 @@ p {
   #main .features p{
     font-size: 15px;
   }
+
 }
