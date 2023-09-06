@@ -3,6 +3,12 @@
   margin: 0;
   padding: 0;
   font-family: "Work Sans", sans-serif;
+
+  /* A trick to detect sizing error */
+
+  /* box-sizing: border-box;
+  outline: 1px solid limegreen;
+  background-color: rgba(0, 100, 0, 0.1); */
 }
 .btn-pink {
   padding: 10px 20px;
@@ -157,10 +163,10 @@ p {
   margin: 0 0 15px 0;
 }
 #main .headline .headline-images {
-  width: 50%;
+  max-width: 50%;
 }
 #main .headline .headline-images img {
-  width: 100%;
+  max-width: 100%;
 }
 /* main headline2 styles */
 #main .headline2 {
@@ -199,7 +205,7 @@ p {
   color: #534c64;
 }
 #main .headline2 .headline2-images img {
-  max-width: 500px;
+  max-width: 100%;
 }
 
 /* online games funny videos section styles */
@@ -355,13 +361,13 @@ p {
 }
 #main .features .feature1-img .feature1-img1{
     width: 100%;
-    margin-left: 80px;
+    margin-left: 60px;
     margin-top: 120px;
 }
 #main .features .feature1-img .feature1-img2{
     width: 40%;
     position: relative;
-    bottom: 220px;
+    bottom: 185px;
 }
 
 /* Feature2 part */
@@ -416,6 +422,7 @@ p {
     flex-direction: column-reverse;
     gap: 50px;
     padding: 0 20px;
+    background-size: 100% auto;
   }
   #main .headline .headline-images {
     width: 85%;
@@ -498,6 +505,9 @@ p {
     flex-direction: column-reverse;
     margin: 0 auto;
   }
+  #main .features .feature2-img .feature2-img1{
+    margin: 0px;
+  }
   #main .features .feature2-img .feature2-img2{
     left: 225px;
     bottom: 100px;
@@ -506,6 +516,12 @@ p {
     width: 95%;
     margin: 0px;
     text-align: center;
+  }
+  #main .features h3{
+    font-size: 30px;
+  }
+  #main .features .features-desc{
+    font-size: 15px;
   }
 
 
@@ -578,12 +594,22 @@ p {
   #main .features .features-desc{
     font-size: 15px;
   }
+  #main .features .feature1-part{
+    gap: 0px;
+  }
+  #main .features .feature2-part{
+    gap: 0px;
+  }
   #main .feature1-part .feature1-img, .feature2-img{
     width: 40%;
   }
+  #main .features .feature1-img .feature1-img1 {
+    margin-top: 0px;
+    margin-left: 60px; 
+  }
   #main .features .feature1-img .feature1-img2{
     bottom: 90px;
-    left: 30px;
+    left: 20px;
   }
 
   #main .features .feature2-img .feature2-img1{
@@ -592,5 +618,14 @@ p {
   #main .features .feature2-img .feature2-img2{
     left: 260px;
     bottom: 100px;
+  }
+  #main .features .feature2-contents{
+    margin-left: 100px;
+  }
+  #main .features h3{
+    font-size: 30px;
+  }
+  #main .features p{
+    font-size: 15px;
   }
 }
